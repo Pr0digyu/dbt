@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600,
+                "schema": "dbt",
+                "role": "ACCOUNTADMIN"
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "snowflake",
+            "account": "kj40283.eu-west-2.aws",
+            "username": "pr0digyu",
+            "password": "82XdccdN%3Cnw&Pg99j%b%W#N73D",
+            "database": "analytics",
+            "warehouse": "COMPUTE_WH"
+        }
+    ]
+}
