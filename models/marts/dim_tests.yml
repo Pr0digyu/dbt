@@ -27,3 +27,12 @@ models:
           - relationships:
               to: ref('stg_customers')
               field: customer_id
+  - name: dim_customers
+    columns: 
+      - name: id
+        tests:
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+          - unique
+          - not_null
